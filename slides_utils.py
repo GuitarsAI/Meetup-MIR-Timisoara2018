@@ -11,6 +11,8 @@ cm.update('livereveal', {
 		  'width' : dict_mode[mode][0],
 		  'height': dict_mode[mode][1],
 		  'scroll': True,
+		  'autolaunch': True,
+		  
 });
 print("Slides Layout Configured: %s"% mode)
 
@@ -22,10 +24,10 @@ def change_mode(mode):
 	});
 	print("Slides Layout Configured: %s"% mode)
 
-#html_code='<center><img src="./MIR/Slide%d.jpg" style="height:%dpx;"></center>'% (slide_number,dict_mode[mode][2])
+#html_code='<center><img src="./MIR/Slide%d.JPG" style="height:%dpx;"></center>'% (slide_number,dict_mode[mode][2])
 
 def show_slide(slide_number):
-	html_code='<img src="./MIR/Slide%d.jpg" style="height:%dpx;">'% (slide_number,dict_mode[mode][2])
+	html_code='<img src="./MIR/Slide%d.JPG" style="height:%dpx;">'% (slide_number,dict_mode[mode][2])
 	display(HTML(html_code))
 	
 def show_web(url):
@@ -34,7 +36,7 @@ def show_web(url):
     display(HTML(html_code))
 	
 def get_slide(slide_number):
-	html_code='<center><img src="./MIR/Slide%d.jpg" style="height:%dpx;"></center>'% (slide_number,dict_mode[mode][2])
+	html_code='<center><img src="./MIR/Slide%d.JPG" style="height:%dpx;"></center>'% (slide_number,dict_mode[mode][2])
 	return html_code
 
 def get_web(url):
