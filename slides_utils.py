@@ -11,7 +11,7 @@ cm.update('livereveal', {
 		  'width' : dict_mode[mode][0],
 		  'height': dict_mode[mode][1],
 		  'scroll': True,
-		  'autolaunch': True,
+		  'start_slideshow_at': 'beginning'
 		  
 });
 print("Slides Layout Configured: %s"% mode)
