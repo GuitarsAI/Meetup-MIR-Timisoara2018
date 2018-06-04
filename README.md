@@ -1,5 +1,5 @@
 # Meetup Data Science Timisoara 2018
-## An Introduction do Music Information Retrieval
+## An Introduction to Music Information Retrieval
 ### Renato Profeta <br> [TU Ilmenau - Applied Media Systems Group](https://www.tu-ilmenau.de/en/applied-media-systems-group/)
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/GuitarsAI/Meetup-MIR-Timisoara2018/master)
