@@ -6,5 +6,6 @@ jupyter nbextension enable hide_input/main
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust meetupTimiVer2.ipynb
 
-wget "https://ftp.osuosl.org/pub/musescore/releases/MuseScore-2.2.1/MuseScore-2.2.1-i686.AppImage"
-chmod u+x MuseScore-2.2.1-i686.AppImage
+wget "https://ftp.osuosl.org/pub/musescore/releases/MuseScore-2.2.1/MuseScore-2.2.1-x86_64.AppImage"
+chmod u+x MuseScore-2.2.1-x86_64.AppImage
+./MuseScore-2.2.1-x86_64.AppImage --install
