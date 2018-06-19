@@ -6,7 +6,7 @@ jupyter nbextension enable hide_input/main
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust meetupTimiVer2.ipynb
 
-add-apt-repository ppa:mscore-ubuntu/mscore-stable
-apt-get install musescore
+sudo add-apt-repository ppa:mscore-ubuntu/mscore-stable
+sudo apt-get install musescore
 
 
