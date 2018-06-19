@@ -1,2 +1,4 @@
 ffmpeg
 libfuse2
+add-apt-repository ppa:mscore-ubuntu/mscore-stable
+musescore
