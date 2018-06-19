@@ -1,3 +1,4 @@
 ffmpeg
 libfuse2 
 musescore
+qt5-default
